@@ -90,7 +90,6 @@ fn compiler() -> (Compiler, BufferedError) {
     (c, errors)
 }
 
-/// Get global sourcemap
 fn codemap() -> Arc<SourceMap> {
     static CM: Lazy<Arc<SourceMap>> =
         Lazy::new(|| Arc::new(SourceMap::new(FilePathMapping::empty())));
@@ -98,7 +97,6 @@ fn codemap() -> Arc<SourceMap> {
     CM.clone()
 }
 
-/// Creates a new handler which emits to returned buffer.
 fn new_handler(_cm: Arc<SourceMapperDyn>) -> (Arc<Handler>, BufferedError) {
     let e = BufferedError::default();
 
