@@ -1,0 +1,25 @@
+{
+  "name": "node_swc",
+  "version": "1.0.0",
+  "description": "swc node binding use wasm",
+  "main": "index.mjs",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisar/node_swc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yisar/node_swc/issues"
+  },
+  "homepage": "https://github.com/yisar/node_swc#readme"
+}
