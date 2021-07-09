@@ -23,4 +23,4 @@ const { code } = printSync(ast, {
 ```
 ### License
 
-MIT Largely inspired by [deno_swc](https://github.com/nestdotland/deno_swc)
+MIT
