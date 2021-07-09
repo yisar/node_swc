@@ -1,7 +1,7 @@
 # node_swc
 swc node binding use wasm
 
-### build
+### Build
 
 ```shell
 $ wasm-pack build # build wasm
@@ -21,3 +21,6 @@ const { code } = printSync(ast, {
   minify: true
 })
 ```
+### License
+
+MIT Largely inspired by [deno_swc](https://github.com/nestdotland/deno_swc)
