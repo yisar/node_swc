@@ -3,9 +3,10 @@ swc node binding use wasm
 
 ### Build
 
+Make sure you have rust wasm-pack installed.
+
 ```shell
-$ wasm-pack build # build wasm
-$ yarn build # build node
+$ yarn build # build wasm, node
 ```
 
 ### Usage

@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "swc node binding use wasm",
   "main": "dist/node_swc.js",
+  "types": "dist/node_swc.d.ts",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build.js"
+    "build": "wasm-pack build && node build.js && cp ./pkg/node_swc.d.ts ./dist"
   },
   "repository": {
     "type": "git",
