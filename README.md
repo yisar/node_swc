@@ -12,6 +12,7 @@ $ yarn build # build cjs
 
 ```js
 import {parseSync, printSync} from 'node-swc'
+
 const ast = parseSync(`const a: string = "hello world"`, {
   syntax: 'typescript'
 })
