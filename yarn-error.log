@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;"D:\Program Files\Java\jdk1.8.0_291\bin;D:\Program Files\Java\jdk1.8.0_291\jre\bin";C:\JAVA\apache-maven-3.3.9\bin;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Users\ji_yf\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Users\huijianlu.CN1\AppData\Local\Programs\Python\Python37\;C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Users\changhaozhao\AppData\Local\Android\Sdk\tools;D:\Users\changhaozhao\AppData\Local\Android\Sdk\platform-tools;D:\Users\changhaozhao\AppData\Local\Android\Sdk\emulator;D:\Program Files\Java\jdk1.8.0_291\bin;D:\Program Files\Java\jdk1.8.0_291\jre\bin;D:\flutter\bin;D:\Users\changhaozhao\.cargo\bin;D:\Users\changhaozhao\AppData\Local\Microsoft\WindowsApps;D:\Users\changhaozhao\AppData\Local\Programs\Microsoft VS Code\bin;D:\Users\changhaozhao\AppData\Roaming\npm;C:\Users\ji_yf\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\GnuWin32\bin\;C:\Program Files\Bandizip\
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  16.3.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (C:\Program Files (x86)\Yarn\lib\cli.js:2314:15)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:61440:11
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:322:14
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5296:28)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:301:12
+      at runCommand (C:\Program Files (x86)\Yarn\lib\cli.js:61512:23)
+      at Object.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:61611:14)
+
+npm manifest: 
+  {
+    "name": "node_swc",
+    "version": "1.0.0",
+    "description": "swc node binding use wasm",
+    "main": "dist/node_swc.js",
+    "type": "module",
+    "directories": {
+      "test": "tests"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build":""
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yisar/node_swc.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yisar/node_swc/issues"
+    },
+    "homepage": "https://github.com/yisar/node_swc#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

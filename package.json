@@ -2,14 +2,13 @@
   "name": "node_swc",
   "version": "1.0.0",
   "description": "swc node binding use wasm",
-  "main": "index.mjs",
-  "type": "module",
+  "main": "dist/node_swc.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node --experimental-modules index.mjs"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/yisar/node_swc/issues"
   },
-  "homepage": "https://github.com/yisar/node_swc#readme"
+  "homepage": "https://github.com/yisar/node_swc#readme",
+  "dependencies": {
+    "esbuild": "^0.12.15",
+    "esbuild-plugin-wasm": "^1.0.0"
+  }
 }
